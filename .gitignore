@@ -1,5 +1,7 @@
-price = input('What is Bitcoin price today?')
-money = input('How much $ do you have?')
+print('What is Bitcoin price tody?')
+price = int(input())
+print('How much $ do you have?')
+money = input()
 price = int(price)
 money = int(money)
 buy = money / price
